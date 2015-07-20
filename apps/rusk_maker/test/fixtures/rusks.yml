@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  base: MyString
+  extras: MyString
+  dippable: false
+  crunch_fator: 1
+
+two:
+  base: MyString
+  extras: MyString
+  dippable: false
+  crunch_fator: 1
