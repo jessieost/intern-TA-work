@@ -5,8 +5,3 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-puts "Creating rusks..."
-
-Rusk.delete_all
-
-Rusk.create! name: "Rustic", base: "wheat", extras: "pecans", dippable: true, crunch_factor: 6
