@@ -39,7 +39,7 @@ def index
 		@rusk = Rusk.find params[:id]
 		@rusk.destroy
 
-		redirect_to rusk_path
+		redirect_to rusks_path
 	end
 
 	private
