@@ -1,0 +1,13 @@
+<h1>All the Rusks</h1>
+
+<h3>Make a New Rusk!</h3>
+	<p><%= link_to 'New Rusk', new_rusk_path %></p>
+<ul>
+	<% @rusks.each do |rusk| %>
+		<li><%=link_to rusk.name, rusk_path(rusk)%> | 
+		<%= link_to 'Edit', edit_rusk_path(rusk) %> | 
+		<%= link_to 'Destroy', rusk_path(rusk),
+			method: :delete,
+			data: { confirm: 'Are you sure you want destroy this delicious rusk?' } %></li>
+	<% end %>
+</ul>
